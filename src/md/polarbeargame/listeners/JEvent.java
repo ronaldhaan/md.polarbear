@@ -7,7 +7,7 @@ import java.awt.Component;
 
 import md.json.components.Button;
 import md.polarbeargame.exceptions.ExceptionCodes;
-import ec.shared.Utility;
+import md.shared.Utility;
 
 import com.google.gson.JsonArray;
 import com.google.gson.JsonElement;

@@ -42,7 +42,7 @@ App.main(App.java:6)
 md.json.componentsvocationTargetException
 md.json.components
 md.json.componentsxpectedException(Utility.java:59)
-ec.shared.Utility.handleUnexpectedException(Utility.java:46)
+md.shared.Utility.handleUnexpectedException(Utility.java:46)
 md.polarbeargame.components.BaseComponent.setListeners(BaseComponent.java:165)
 md.polarbeargame.components.Button.iterate(Button.java:69)
 md.polarbeargame.components.Button.<init>(Button.java:27)
@@ -53,8 +53,8 @@ App.main(App.java:6)
 md.json.components
 md.json.componentsvocationTargetException
 md.json.components
-ec.shared.Utility.handleUnexpectedException(Utility.java:59)
-ec.shared.Utility.handleUnexpectedException(Utility.java:46)
+md.shared.Utility.handleUnexpectedException(Utility.java:59)
+md.shared.Utility.handleUnexpectedException(Utility.java:46)
 md.polarbeargame.components.BaseComponent.setListeners(BaseComponent.java:165)
 md.polarbeargame.components.Button.iterate(Button.java:69)
 md.polarbeargame.components.Button.<init>(Button.java:27)
@@ -65,8 +65,8 @@ md.json.components
 md.json.components
 md.json.componentsvocationTargetException
 
-ec.shared.Utility.handleUnexpectedException(Utility.java:59)
-ec.shared.Utility.handleUnexpectedException(Utility.java:46)
+md.shared.Utility.handleUnexpectedException(Utility.java:59)
+md.shared.Utility.handleUnexpectedException(Utility.java:46)
 md.polarbeargame.components.BaseComponent.setListeners(BaseComponent.java:165)
 md.polarbeargame.components.Button.iterate(Button.java:69)
 md.polarbeargame.components.Button.<init>(Button.java:27)

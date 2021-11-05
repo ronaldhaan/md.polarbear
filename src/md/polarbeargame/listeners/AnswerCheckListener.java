@@ -8,7 +8,7 @@ import md.json.components.TextField;
 import md.polarbeargame.exceptions.ExceptionCodes;
 import md.polarbeargame.models.Data;
 
-import ec.shared.Utility;
+import md.shared.Utility;
 
     /**
 	 * de ActionListener gaat kijken of de invoer van de gebruiker klopt of niet.

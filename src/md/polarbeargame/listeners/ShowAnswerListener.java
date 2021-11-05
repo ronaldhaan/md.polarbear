@@ -6,7 +6,7 @@ import md.polarbeargame.exceptions.ExceptionCodes;
 import md.json.components.Button;
 import md.polarbeargame.models.DiceCollection;
 import md.polarbeargame.models.Data;
-import ec.shared.Utility;
+import md.shared.Utility;
 
 import java.awt.event.ActionEvent;
 

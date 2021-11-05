@@ -11,10 +11,11 @@ import java.lang.reflect.Field;
 import java.lang.reflect.InvocationTargetException;
 import java.util.ArrayList;
 
+import md.json.JsonFile;
 import md.json.components.Button;
 import md.polarbeargame.exceptions.ExceptionCodes;
-import ec.shared.EcFile;
-import ec.shared.Utility;
+import md.shared.MdFiles;
+import md.shared.Utility;
 
 import javax.swing.JComponent;
 
@@ -30,7 +31,7 @@ public abstract class JsonComponent extends JComponent {
     }
 
     public JsonObject getJsonfileJsonObject(String className) {
-        return Utility.getJsonFile(Path.of(EcFile.getRootFolder().toString(), "src", "ec", "polarbeargame", "views", className+".json"));
+        return JsonFile.get(Path.of(MdFiles.getRootFolder().toString(), "src", "ec", "polarbeargame", "views", className+".json"));
     }
 
     public Rectangle getBounds(String bounds) throws NumberFormatException {

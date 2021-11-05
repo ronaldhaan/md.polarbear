@@ -4,7 +4,7 @@ import java.awt.Color;
 import java.lang.reflect.Field;
 
 import md.polarbeargame.exceptions.ExceptionCodes;
-import ec.shared.Utility;
+import md.shared.Utility;
 
 public class JColor extends Color {
     private static final long serialVersionUID = 1L;

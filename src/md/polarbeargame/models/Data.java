@@ -8,7 +8,7 @@ import javax.swing.JPanel;
 
 import md.json.components.interfaces.ITextComponent;
 import md.polarbeargame.exceptions.ExceptionCodes;
-import ec.shared.Utility;
+import md.shared.Utility;
 
 import java.awt.Component;
 

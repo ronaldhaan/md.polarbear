@@ -4,7 +4,7 @@ import java.awt.event.KeyEvent;
 import java.awt.event.KeyListener;
 
 import md.polarbeargame.exceptions.ExceptionCodes;
-import ec.shared.Utility;
+import md.shared.Utility;
 
 public class NumericKeyListener implements KeyListener {
 

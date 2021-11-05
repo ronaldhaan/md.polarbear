@@ -2,8 +2,8 @@ package md.polarbeargame.exceptions;
 
 import java.lang.Thread.State;
 
-import ec.shared.Utility;
-import ec.shared.exceptions.IExceptionCodes;
+import md.shared.Utility;
+import md.shared.exceptions.IExceptionCodes;
 
 public enum ExceptionCodes implements IExceptionCodes{
     

@@ -15,7 +15,7 @@ import md.json.components.JsonPanel;
 import md.polarbeargame.exceptions.ExceptionCodes;
 import md.polarbeargame.models.Data;
 import md.polarbeargame.models.JColor;
-import ec.shared.Utility;
+import md.shared.Utility;
 
 public class GamePanel extends JsonPanel {
     private static final long serialVersionUID = 1L;

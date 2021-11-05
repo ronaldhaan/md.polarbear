@@ -10,7 +10,7 @@ import md.polarbeargame.exceptions.ExceptionCodes;
 import md.polarbeargame.models.Dice;
 import md.polarbeargame.models.DiceCollection;
 import md.polarbeargame.models.Data;
-import ec.shared.Utility;
+import md.shared.Utility;
 
 public class ThrowDiceListener implements ActionListener 
 {

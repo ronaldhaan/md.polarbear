@@ -10,8 +10,8 @@ import com.google.gson.JsonObject;
 
 import md.json.components.JsonFrame;
 import md.polarbeargame.exceptions.ExceptionCodes;
-import ec.shared.Utility;
-import ec.shared.appsettings.AppSettings;
+import md.shared.Utility;
+import md.shared.appsettings.AppSettings;
 
 public class Frame extends JsonFrame {
     private static final long serialVersionUID = 1L;

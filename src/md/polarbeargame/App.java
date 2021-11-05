@@ -4,17 +4,16 @@ import java.nio.file.Path;
 
 import com.google.gson.JsonObject;
 
+import md.json.JsonFile;
 import md.polarbeargame.views.Frame;
-import ec.shared.EcFile;
-import ec.shared.Utility;
-import ec.shared.appsettings.AppSettings;
-import ec.shared.mapper.EcMap;
+import md.shared.MdFiles;
+import md.shared.appsettings.AppSettings;
+import md.shared.mapper.Mapper;
 
 public class App {
     public static void main(String[] args) {
-        EcMap map = new EcMap();
-        JsonObject settingsJson = Utility.getJsonFile(Path.of(EcFile.getRootFolder().toString(), "src", "ec", "polarbeargame", "appsettings.json"));
-        AppSettings settings = map.map(settingsJson, AppSettings.class);
+        JsonObject settingsJson = JsonFile.get(Path.of(MdFiles.getRootFolder().toString(), "src", "ec", "polarbeargame", "appsettings.json"));
+        AppSettings settings = Mapper.map(settingsJson, AppSettings.class);
 
         if(settings != null){
             new Frame(settings);

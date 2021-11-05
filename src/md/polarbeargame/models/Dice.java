@@ -5,7 +5,7 @@ import java.util.Map;
 import java.util.Random;
 
 import md.polarbeargame.exceptions.ExceptionCodes;
-import ec.shared.Utility;
+import md.shared.Utility;
 
 import java.awt.Graphics;
 import java.awt.Color;
@@ -155,16 +155,16 @@ public class Dice
 			g.drawRoundRect(x, y, size, size, 25, 25);	
 			
 
-			if 	(contains(middle, eyes))
+			if 	(Utility.contains(middle, eyes))
 			{
 				g.fillOval(x + centered, y + centered, dot, dot);			
 			}
-			if	(contains(cornersOfTwo, eyes) )
+			if	(Utility.contains(cornersOfTwo, eyes) )
 			{
 				g.fillOval(x + padding, y + padding, dot, dot);	// links boven
 				g.fillOval(x + paddingBottom, y + paddingBottom, dot, dot); // rechts onder
 			} 
-			if	(contains(otherCorners, eyes)) 
+			if	(Utility.contains(otherCorners, eyes)) 
 			{
 				g.fillOval(x + paddingBottom, y + padding, dot, dot); // linksonder
 				g.fillOval(x + padding, y + paddingBottom, dot, dot); // rechts boven
@@ -181,14 +181,6 @@ public class Dice
 		}
 		
 		return g;
-	}
-
-	public static <T> Boolean contains(T[] a, T v) {
-		for (T t : a) {
-			if(t == v) return true;
-		}
-
-		return false;
 	}
 }
 
