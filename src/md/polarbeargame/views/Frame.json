@@ -1,0 +1,9 @@
+{
+    "Size": "788, 600",
+    "Title": "Polarbear game",
+    "DefaultCloseOperation": 3,
+    "Resizable": true,
+    "Location": null,
+    "Visible": true,
+    "ContentPanel": "GamePanel"
+}

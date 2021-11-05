@@ -1,0 +1,353 @@
+
+
+Type
+
+[md.json.components.TextField.iterate(TextField.java:69), md.json.components.TextField.<init>(TextField.java:24), md.polarbeargame.views.GamePanel.<init>(GamePanel.java:44), md.polarbeargame.views.Frame.<init>(Frame.java:24), App.main(App.java:6)]
+
+Type
+
+[md.json.components.TextField.iterate(TextField.java:69), md.json.components.TextField.<init>(TextField.java:24), md.polarbeargame.views.GamePanel.<init>(GamePanel.java:44), md.polarbeargame.views.Frame.<init>(Frame.java:24), App.main(App.java:6)]
+
+Type
+
+[md.json.components.TextField.iterate(TextField.java:69), md.json.components.TextField.<init>(TextField.java:24), md.polarbeargame.views.GamePanel.<init>(GamePanel.java:44), md.polarbeargame.views.Frame.<init>(Frame.java:24), App.main(App.java:6)]
+
+Type
+
+[md.json.components.TextField.iterate(TextField.java:69), md.json.components.TextField.<init>(TextField.java:24), md.polarbeargame.views.GamePanel.<init>(GamePanel.java:44), md.polarbeargame.views.Frame.<init>(Frame.java:24), App.main(App.java:6)]
+
+Type
+
+[md.json.components.TextField.iterate(TextField.java:69), md.json.components.TextField.<init>(TextField.java:24), md.polarbeargame.views.GamePanel.<init>(GamePanel.java:44), md.polarbeargame.views.Frame.<init>(Frame.java:24), App.main(App.java:6)]
+
+Type
+
+[md.json.components.TextField.iterate(TextField.java:69), md.json.components.TextField.<init>(TextField.java:24), md.polarbeargame.views.GamePanel.<init>(GamePanel.java:44), md.polarbeargame.views.Frame.<init>(Frame.java:24), App.main(App.java:6)]
+
+Type
+
+[md.json.components.TextField.iterate(TextField.java:69), md.json.components.TextField.<init>(TextField.java:24), md.polarbeargame.views.GamePanel.<init>(GamePanel.java:44), md.polarbeargame.views.Frame.<init>(Frame.java:24), App.main(App.java:6)]
+
+Type
+
+[md.json.components.Button.iterate(Button.java:70), md.json.components.Button.<init>(Button.java:26), md.polarbeargame.views.GamePanel.<init>(GamePanel.java:54), md.polarbeargame.views.Frame.<init>(Frame.java:24), App.main(App.java:6)]
+
+Type
+
+[md.json.components.Button.iterate(Button.java:70), md.json.components.Button.<init>(Button.java:26), md.polarbeargame.views.GamePanel.<init>(GamePanel.java:54), md.polarbeargame.views.Frame.<init>(Frame.java:24), App.main(App.java:6)]
+
+Type
+
+[md.json.components.Button.iterate(Button.java:70), md.json.components.Button.<init>(Button.java:26), md.polarbeargame.views.GamePanel.<init>(GamePanel.java:54), md.polarbeargame.views.Frame.<init>(Frame.java:24), App.main(App.java:6)]
+
+Type
+
+[md.json.components.Button.iterate(Button.java:70), md.json.components.Button.<init>(Button.java:26), md.polarbeargame.views.GamePanel.<init>(GamePanel.java:54), md.polarbeargame.views.Frame.<init>(Frame.java:24), App.main(App.java:6)]
+
+Type
+
+[md.json.components.TextArea.iterate(TextArea.java:86), md.json.components.TextArea.<init>(TextArea.java:27), md.polarbeargame.views.GamePanel.<init>(GamePanel.java:59), md.polarbeargame.views.Frame.<init>(Frame.java:24), App.main(App.java:6)]
+
+For input string: " 65"
+
+[java.base/java.lang.NumberFormatException.forInputString(NumberFormatException.java:65), java.base/java.lang.Integer.parseInt(Integer.java:638), java.base/java.lang.Integer.parseInt(Integer.java:770), md.json.components.BaseComponent.getBounds(BaseComponent.java:57), md.json.components.TextField.iterate(TextField.java:48), md.json.components.TextField.<init>(TextField.java:24), md.polarbeargame.views.GamePanel.<init>(GamePanel.java:44), md.polarbeargame.views.Frame.<init>(Frame.java:24), App.main(App.java:6)]
+
+For input string: " 75"
+
+[java.base/java.lang.NumberFormatException.forInputString(NumberFormatException.java:65), java.base/java.lang.Integer.parseInt(Integer.java:638), java.base/java.lang.Integer.parseInt(Integer.java:770), md.json.components.BaseComponent.getBounds(BaseComponent.java:57), md.json.components.TextField.iterate(TextField.java:48), md.json.components.TextField.<init>(TextField.java:24), md.polarbeargame.views.GamePanel.<init>(GamePanel.java:44), md.polarbeargame.views.Frame.<init>(Frame.java:24), App.main(App.java:6)]
+
+For input string: " 105"
+
+[java.base/java.lang.NumberFormatException.forInputString(NumberFormatException.java:65), java.base/java.lang.Integer.parseInt(Integer.java:638), java.base/java.lang.Integer.parseInt(Integer.java:770), md.json.components.BaseComponent.getBounds(BaseComponent.java:57), md.json.components.TextField.iterate(TextField.java:48), md.json.components.TextField.<init>(TextField.java:24), md.polarbeargame.views.GamePanel.<init>(GamePanel.java:44), md.polarbeargame.views.Frame.<init>(Frame.java:24), App.main(App.java:6)]
+
+For input string: " 135"
+
+[java.base/java.lang.NumberFormatException.forInputString(NumberFormatException.java:65), java.base/java.lang.Integer.parseInt(Integer.java:638), java.base/java.lang.Integer.parseInt(Integer.java:770), md.json.components.BaseComponent.getBounds(BaseComponent.java:57), md.json.components.TextField.iterate(TextField.java:48), md.json.components.TextField.<init>(TextField.java:24), md.polarbeargame.views.GamePanel.<init>(GamePanel.java:44), md.polarbeargame.views.Frame.<init>(Frame.java:24), App.main(App.java:6)]
+
+For input string: " 700"
+
+[java.base/java.lang.NumberFormatException.forInputString(NumberFormatException.java:65), java.base/java.lang.Integer.parseInt(Integer.java:638), java.base/java.lang.Integer.parseInt(Integer.java:770), md.json.components.BaseComponent.getBounds(BaseComponent.java:57), md.json.components.TextField.iterate(TextField.java:48), md.json.components.TextField.<init>(TextField.java:24), md.polarbeargame.views.GamePanel.<init>(GamePanel.java:44), md.polarbeargame.views.Frame.<init>(Frame.java:24), App.main(App.java:6)]
+
+For input string: " 700"
+
+[java.base/java.lang.NumberFormatException.forInputString(NumberFormatException.java:65), java.base/java.lang.Integer.parseInt(Integer.java:638), java.base/java.lang.Integer.parseInt(Integer.java:770), md.json.components.BaseComponent.getBounds(BaseComponent.java:57), md.json.components.TextField.iterate(TextField.java:48), md.json.components.TextField.<init>(TextField.java:24), md.polarbeargame.views.GamePanel.<init>(GamePanel.java:44), md.polarbeargame.views.Frame.<init>(Frame.java:24), App.main(App.java:6)]
+
+For input string: " 700"
+
+[java.base/java.lang.NumberFormatException.forInputString(NumberFormatException.java:65), java.base/java.lang.Integer.parseInt(Integer.java:638), java.base/java.lang.Integer.parseInt(Integer.java:770), md.json.components.BaseComponent.getBounds(BaseComponent.java:57), md.json.components.TextField.iterate(TextField.java:48), md.json.components.TextField.<init>(TextField.java:24), md.polarbeargame.views.GamePanel.<init>(GamePanel.java:44), md.polarbeargame.views.Frame.<init>(Frame.java:24), App.main(App.java:6)]
+
+For input string: " 65"
+
+[java.base/java.lang.NumberFormatException.forInputString(NumberFormatException.java:65), java.base/java.lang.Integer.parseInt(Integer.java:638), java.base/java.lang.Integer.parseInt(Integer.java:770), md.json.components.BaseComponent.getBounds(BaseComponent.java:57), md.json.components.Button.iterate(Button.java:49), md.json.components.Button.<init>(Button.java:26), md.polarbeargame.views.GamePanel.<init>(GamePanel.java:54), md.polarbeargame.views.Frame.<init>(Frame.java:24), App.main(App.java:6)]
+
+For input string: " 165"
+
+[java.base/java.lang.NumberFormatException.forInputString(NumberFormatException.java:65), java.base/java.lang.Integer.parseInt(Integer.java:638), java.base/java.lang.Integer.parseInt(Integer.java:770), md.json.components.BaseComponent.getBounds(BaseComponent.java:57), md.json.components.Button.iterate(Button.java:49), md.json.components.Button.<init>(Button.java:26), md.polarbeargame.views.GamePanel.<init>(GamePanel.java:54), md.polarbeargame.views.Frame.<init>(Frame.java:24), App.main(App.java:6)]
+
+For input string: " 690"
+
+[java.base/java.lang.NumberFormatException.forInputString(NumberFormatException.java:65), java.base/java.lang.Integer.parseInt(Integer.java:638), java.base/java.lang.Integer.parseInt(Integer.java:770), md.json.components.BaseComponent.getBounds(BaseComponent.java:57), md.json.components.Button.iterate(Button.java:49), md.json.components.Button.<init>(Button.java:26), md.polarbeargame.views.GamePanel.<init>(GamePanel.java:54), md.polarbeargame.views.Frame.<init>(Frame.java:24), App.main(App.java:6)]
+
+For input string: " 90"
+
+[java.base/java.lang.NumberFormatException.forInputString(NumberFormatException.java:65), java.base/java.lang.Integer.parseInt(Integer.java:638), java.base/java.lang.Integer.parseInt(Integer.java:770), md.json.components.BaseComponent.getBounds(BaseComponent.java:58), md.json.components.Button.iterate(Button.java:49), md.json.components.Button.<init>(Button.java:26), md.polarbeargame.views.GamePanel.<init>(GamePanel.java:54), md.polarbeargame.views.Frame.<init>(Frame.java:24), App.main(App.java:6)]
+
+For input string: " 230"
+
+[java.base/java.lang.NumberFormatException.forInputString(NumberFormatException.java:65), java.base/java.lang.Integer.parseInt(Integer.java:638), java.base/java.lang.Integer.parseInt(Integer.java:770), md.json.components.BaseComponent.getBounds(BaseComponent.java:57), md.json.components.TextArea.iterate(TextArea.java:50), md.json.components.TextArea.<init>(TextArea.java:27), md.polarbeargame.views.GamePanel.<init>(GamePanel.java:59), md.polarbeargame.views.Frame.<init>(Frame.java:24), App.main(App.java:6)]
+
+For input string: " 65"
+
+[java.base/java.lang.NumberFormatException.forInputString(NumberFormatException.java:65), java.base/java.lang.Integer.parseInt(Integer.java:638), java.base/java.lang.Integer.parseInt(Integer.java:770), md.json.components.BaseComponent.getBounds(BaseComponent.java:57), md.json.components.TextField.iterate(TextField.java:48), md.json.components.TextField.<init>(TextField.java:24), md.polarbeargame.views.GamePanel.<init>(GamePanel.java:46), md.polarbeargame.views.Frame.<init>(Frame.java:24), App.main(App.java:6)]
+
+For input string: " 75"
+
+[java.base/java.lang.NumberFormatException.forInputString(NumberFormatException.java:65), java.base/java.lang.Integer.parseInt(Integer.java:638), java.base/java.lang.Integer.parseInt(Integer.java:770), md.json.components.BaseComponent.getBounds(BaseComponent.java:57), md.json.components.TextField.iterate(TextField.java:48), md.json.components.TextField.<init>(TextField.java:24), md.polarbeargame.views.GamePanel.<init>(GamePanel.java:46), md.polarbeargame.views.Frame.<init>(Frame.java:24), App.main(App.java:6)]
+
+For input string: " 105"
+
+[java.base/java.lang.NumberFormatException.forInputString(NumberFormatException.java:65), java.base/java.lang.Integer.parseInt(Integer.java:638), java.base/java.lang.Integer.parseInt(Integer.java:770), md.json.components.BaseComponent.getBounds(BaseComponent.java:57), md.json.components.TextField.iterate(TextField.java:48), md.json.components.TextField.<init>(TextField.java:24), md.polarbeargame.views.GamePanel.<init>(GamePanel.java:46), md.polarbeargame.views.Frame.<init>(Frame.java:24), App.main(App.java:6)]
+
+For input string: " 135"
+
+[java.base/java.lang.NumberFormatException.forInputString(NumberFormatException.java:65), java.base/java.lang.Integer.parseInt(Integer.java:638), java.base/java.lang.Integer.parseInt(Integer.java:770), md.json.components.BaseComponent.getBounds(BaseComponent.java:57), md.json.components.TextField.iterate(TextField.java:48), md.json.components.TextField.<init>(TextField.java:24), md.polarbeargame.views.GamePanel.<init>(GamePanel.java:46), md.polarbeargame.views.Frame.<init>(Frame.java:24), App.main(App.java:6)]
+
+For input string: " 700"
+
+[java.base/java.lang.NumberFormatException.forInputString(NumberFormatException.java:65), java.base/java.lang.Integer.parseInt(Integer.java:638), java.base/java.lang.Integer.parseInt(Integer.java:770), md.json.components.BaseComponent.getBounds(BaseComponent.java:57), md.json.components.TextField.iterate(TextField.java:48), md.json.components.TextField.<init>(TextField.java:24), md.polarbeargame.views.GamePanel.<init>(GamePanel.java:46), md.polarbeargame.views.Frame.<init>(Frame.java:24), App.main(App.java:6)]
+
+For input string: " 700"
+
+[java.base/java.lang.NumberFormatException.forInputString(NumberFormatException.java:65), java.base/java.lang.Integer.parseInt(Integer.java:638), java.base/java.lang.Integer.parseInt(Integer.java:770), md.json.components.BaseComponent.getBounds(BaseComponent.java:57), md.json.components.TextField.iterate(TextField.java:48), md.json.components.TextField.<init>(TextField.java:24), md.polarbeargame.views.GamePanel.<init>(GamePanel.java:46), md.polarbeargame.views.Frame.<init>(Frame.java:24), App.main(App.java:6)]
+
+For input string: " 700"
+
+[java.base/java.lang.NumberFormatException.forInputString(NumberFormatException.java:65), java.base/java.lang.Integer.parseInt(Integer.java:638), java.base/java.lang.Integer.parseInt(Integer.java:770), md.json.components.BaseComponent.getBounds(BaseComponent.java:57), md.json.components.TextField.iterate(TextField.java:48), md.json.components.TextField.<init>(TextField.java:24), md.polarbeargame.views.GamePanel.<init>(GamePanel.java:46), md.polarbeargame.views.Frame.<init>(Frame.java:24), App.main(App.java:6)]
+
+For input string: " 65"
+
+[java.base/java.lang.NumberFormatException.forInputString(NumberFormatException.java:65), java.base/java.lang.Integer.parseInt(Integer.java:638), java.base/java.lang.Integer.parseInt(Integer.java:770), md.json.components.BaseComponent.getBounds(BaseComponent.java:57), md.json.components.Button.iterate(Button.java:49), md.json.components.Button.<init>(Button.java:26), md.polarbeargame.views.GamePanel.<init>(GamePanel.java:56), md.polarbeargame.views.Frame.<init>(Frame.java:24), App.main(App.java:6)]
+
+For input string: " 165"
+
+[java.base/java.lang.NumberFormatException.forInputString(NumberFormatException.java:65), java.base/java.lang.Integer.parseInt(Integer.java:638), java.base/java.lang.Integer.parseInt(Integer.java:770), md.json.components.BaseComponent.getBounds(BaseComponent.java:57), md.json.components.Button.iterate(Button.java:49), md.json.components.Button.<init>(Button.java:26), md.polarbeargame.views.GamePanel.<init>(GamePanel.java:56), md.polarbeargame.views.Frame.<init>(Frame.java:24), App.main(App.java:6)]
+
+For input string: " 690"
+
+[java.base/java.lang.NumberFormatException.forInputString(NumberFormatException.java:65), java.base/java.lang.Integer.parseInt(Integer.java:638), java.base/java.lang.Integer.parseInt(Integer.java:770), md.json.components.BaseComponent.getBounds(BaseComponent.java:57), md.json.components.Button.iterate(Button.java:49), md.json.components.Button.<init>(Button.java:26), md.polarbeargame.views.GamePanel.<init>(GamePanel.java:56), md.polarbeargame.views.Frame.<init>(Frame.java:24), App.main(App.java:6)]
+
+For input string: " 90"
+
+[java.base/java.lang.NumberFormatException.forInputString(NumberFormatException.java:65), java.base/java.lang.Integer.parseInt(Integer.java:638), java.base/java.lang.Integer.parseInt(Integer.java:770), md.json.components.BaseComponent.getBounds(BaseComponent.java:58), md.json.components.Button.iterate(Button.java:49), md.json.components.Button.<init>(Button.java:26), md.polarbeargame.views.GamePanel.<init>(GamePanel.java:56), md.polarbeargame.views.Frame.<init>(Frame.java:24), App.main(App.java:6)]
+
+For input string: " 230"
+
+[java.base/java.lang.NumberFormatException.forInputString(NumberFormatException.java:65), java.base/java.lang.Integer.parseInt(Integer.java:638), java.base/java.lang.Integer.parseInt(Integer.java:770), md.json.components.BaseComponent.getBounds(BaseComponent.java:57), md.json.components.TextArea.iterate(TextArea.java:50), md.json.components.TextArea.<init>(TextArea.java:27), md.polarbeargame.views.GamePanel.<init>(GamePanel.java:61), md.polarbeargame.views.Frame.<init>(Frame.java:24), App.main(App.java:6)]
+
+For input string: " 65"
+
+[java.base/java.lang.NumberFormatException.forInputString(NumberFormatException.java:65), java.base/java.lang.Integer.parseInt(Integer.java:638), java.base/java.lang.Integer.parseInt(Integer.java:770), md.json.components.BaseComponent.getBounds(BaseComponent.java:62), md.json.components.TextField.iterate(TextField.java:48), md.json.components.TextField.<init>(TextField.java:24), md.polarbeargame.views.GamePanel.<init>(GamePanel.java:46), md.polarbeargame.views.Frame.<init>(Frame.java:24), App.main(App.java:6)]
+
+For input string: " 75"
+
+[java.base/java.lang.NumberFormatException.forInputString(NumberFormatException.java:65), java.base/java.lang.Integer.parseInt(Integer.java:638), java.base/java.lang.Integer.parseInt(Integer.java:770), md.json.components.BaseComponent.getBounds(BaseComponent.java:62), md.json.components.TextField.iterate(TextField.java:48), md.json.components.TextField.<init>(TextField.java:24), md.polarbeargame.views.GamePanel.<init>(GamePanel.java:46), md.polarbeargame.views.Frame.<init>(Frame.java:24), App.main(App.java:6)]
+
+For input string: " 105"
+
+[java.base/java.lang.NumberFormatException.forInputString(NumberFormatException.java:65), java.base/java.lang.Integer.parseInt(Integer.java:638), java.base/java.lang.Integer.parseInt(Integer.java:770), md.json.components.BaseComponent.getBounds(BaseComponent.java:62), md.json.components.TextField.iterate(TextField.java:48), md.json.components.TextField.<init>(TextField.java:24), md.polarbeargame.views.GamePanel.<init>(GamePanel.java:46), md.polarbeargame.views.Frame.<init>(Frame.java:24), App.main(App.java:6)]
+
+For input string: " 135"
+
+[java.base/java.lang.NumberFormatException.forInputString(NumberFormatException.java:65), java.base/java.lang.Integer.parseInt(Integer.java:638), java.base/java.lang.Integer.parseInt(Integer.java:770), md.json.components.BaseComponent.getBounds(BaseComponent.java:62), md.json.components.TextField.iterate(TextField.java:48), md.json.components.TextField.<init>(TextField.java:24), md.polarbeargame.views.GamePanel.<init>(GamePanel.java:46), md.polarbeargame.views.Frame.<init>(Frame.java:24), App.main(App.java:6)]
+
+For input string: " 700"
+
+[java.base/java.lang.NumberFormatException.forInputString(NumberFormatException.java:65), java.base/java.lang.Integer.parseInt(Integer.java:638), java.base/java.lang.Integer.parseInt(Integer.java:770), md.json.components.BaseComponent.getBounds(BaseComponent.java:62), md.json.components.TextField.iterate(TextField.java:48), md.json.components.TextField.<init>(TextField.java:24), md.polarbeargame.views.GamePanel.<init>(GamePanel.java:46), md.polarbeargame.views.Frame.<init>(Frame.java:24), App.main(App.java:6)]
+
+For input string: " 700"
+
+[java.base/java.lang.NumberFormatException.forInputString(NumberFormatException.java:65), java.base/java.lang.Integer.parseInt(Integer.java:638), java.base/java.lang.Integer.parseInt(Integer.java:770), md.json.components.BaseComponent.getBounds(BaseComponent.java:62), md.json.components.TextField.iterate(TextField.java:48), md.json.components.TextField.<init>(TextField.java:24), md.polarbeargame.views.GamePanel.<init>(GamePanel.java:46), md.polarbeargame.views.Frame.<init>(Frame.java:24), App.main(App.java:6)]
+
+For input string: " 700"
+
+[java.base/java.lang.NumberFormatException.forInputString(NumberFormatException.java:65), java.base/java.lang.Integer.parseInt(Integer.java:638), java.base/java.lang.Integer.parseInt(Integer.java:770), md.json.components.BaseComponent.getBounds(BaseComponent.java:62), md.json.components.TextField.iterate(TextField.java:48), md.json.components.TextField.<init>(TextField.java:24), md.polarbeargame.views.GamePanel.<init>(GamePanel.java:46), md.polarbeargame.views.Frame.<init>(Frame.java:24), App.main(App.java:6)]
+
+For input string: " 65"
+
+[java.base/java.lang.NumberFormatException.forInputString(NumberFormatException.java:65), java.base/java.lang.Integer.parseInt(Integer.java:638), java.base/java.lang.Integer.parseInt(Integer.java:770), md.json.components.BaseComponent.getBounds(BaseComponent.java:62), md.json.components.Button.iterate(Button.java:49), md.json.components.Button.<init>(Button.java:26), md.polarbeargame.views.GamePanel.<init>(GamePanel.java:56), md.polarbeargame.views.Frame.<init>(Frame.java:24), App.main(App.java:6)]
+
+For input string: " 165"
+
+[java.base/java.lang.NumberFormatException.forInputString(NumberFormatException.java:65), java.base/java.lang.Integer.parseInt(Integer.java:638), java.base/java.lang.Integer.parseInt(Integer.java:770), md.json.components.BaseComponent.getBounds(BaseComponent.java:62), md.json.components.Button.iterate(Button.java:49), md.json.components.Button.<init>(Button.java:26), md.polarbeargame.views.GamePanel.<init>(GamePanel.java:56), md.polarbeargame.views.Frame.<init>(Frame.java:24), App.main(App.java:6)]
+
+For input string: " 690"
+
+[java.base/java.lang.NumberFormatException.forInputString(NumberFormatException.java:65), java.base/java.lang.Integer.parseInt(Integer.java:638), java.base/java.lang.Integer.parseInt(Integer.java:770), md.json.components.BaseComponent.getBounds(BaseComponent.java:62), md.json.components.Button.iterate(Button.java:49), md.json.components.Button.<init>(Button.java:26), md.polarbeargame.views.GamePanel.<init>(GamePanel.java:56), md.polarbeargame.views.Frame.<init>(Frame.java:24), App.main(App.java:6)]
+
+For input string: " 90"
+
+[java.base/java.lang.NumberFormatException.forInputString(NumberFormatException.java:65), java.base/java.lang.Integer.parseInt(Integer.java:638), java.base/java.lang.Integer.parseInt(Integer.java:770), md.json.components.BaseComponent.getBounds(BaseComponent.java:63), md.json.components.Button.iterate(Button.java:49), md.json.components.Button.<init>(Button.java:26), md.polarbeargame.views.GamePanel.<init>(GamePanel.java:56), md.polarbeargame.views.Frame.<init>(Frame.java:24), App.main(App.java:6)]
+
+For input string: " 230"
+
+[java.base/java.lang.NumberFormatException.forInputString(NumberFormatException.java:65), java.base/java.lang.Integer.parseInt(Integer.java:638), java.base/java.lang.Integer.parseInt(Integer.java:770), md.json.components.BaseComponent.getBounds(BaseComponent.java:62), md.json.components.TextArea.iterate(TextArea.java:50), md.json.components.TextArea.<init>(TextArea.java:27), md.polarbeargame.views.GamePanel.<init>(GamePanel.java:61), md.polarbeargame.views.Frame.<init>(Frame.java:24), App.main(App.java:6)]
+
+For input string: " 65"
+
+[java.base/java.lang.NumberFormatException.forInputString(NumberFormatException.java:65), java.base/java.lang.Integer.parseInt(Integer.java:638), java.base/java.lang.Integer.parseInt(Integer.java:770), md.json.components.BaseComponent.getBounds(BaseComponent.java:62), md.json.components.TextField.iterate(TextField.java:48), md.json.components.TextField.<init>(TextField.java:24), md.polarbeargame.views.GamePanel.<init>(GamePanel.java:46), md.polarbeargame.views.Frame.<init>(Frame.java:24), App.main(App.java:6)]
+
+For input string: " 75"
+
+[java.base/java.lang.NumberFormatException.forInputString(NumberFormatException.java:65), java.base/java.lang.Integer.parseInt(Integer.java:638), java.base/java.lang.Integer.parseInt(Integer.java:770), md.json.components.BaseComponent.getBounds(BaseComponent.java:62), md.json.components.TextField.iterate(TextField.java:48), md.json.components.TextField.<init>(TextField.java:24), md.polarbeargame.views.GamePanel.<init>(GamePanel.java:46), md.polarbeargame.views.Frame.<init>(Frame.java:24), App.main(App.java:6)]
+
+For input string: " 105"
+
+[java.base/java.lang.NumberFormatException.forInputString(NumberFormatException.java:65), java.base/java.lang.Integer.parseInt(Integer.java:638), java.base/java.lang.Integer.parseInt(Integer.java:770), md.json.components.BaseComponent.getBounds(BaseComponent.java:62), md.json.components.TextField.iterate(TextField.java:48), md.json.components.TextField.<init>(TextField.java:24), md.polarbeargame.views.GamePanel.<init>(GamePanel.java:46), md.polarbeargame.views.Frame.<init>(Frame.java:24), App.main(App.java:6)]
+
+For input string: " 135"
+
+[java.base/java.lang.NumberFormatException.forInputString(NumberFormatException.java:65), java.base/java.lang.Integer.parseInt(Integer.java:638), java.base/java.lang.Integer.parseInt(Integer.java:770), md.json.components.BaseComponent.getBounds(BaseComponent.java:62), md.json.components.TextField.iterate(TextField.java:48), md.json.components.TextField.<init>(TextField.java:24), md.polarbeargame.views.GamePanel.<init>(GamePanel.java:46), md.polarbeargame.views.Frame.<init>(Frame.java:24), App.main(App.java:6)]
+
+For input string: " 700"
+
+[java.base/java.lang.NumberFormatException.forInputString(NumberFormatException.java:65), java.base/java.lang.Integer.parseInt(Integer.java:638), java.base/java.lang.Integer.parseInt(Integer.java:770), md.json.components.BaseComponent.getBounds(BaseComponent.java:62), md.json.components.TextField.iterate(TextField.java:48), md.json.components.TextField.<init>(TextField.java:24), md.polarbeargame.views.GamePanel.<init>(GamePanel.java:46), md.polarbeargame.views.Frame.<init>(Frame.java:24), App.main(App.java:6)]
+
+For input string: " 700"
+
+[java.base/java.lang.NumberFormatException.forInputString(NumberFormatException.java:65), java.base/java.lang.Integer.parseInt(Integer.java:638), java.base/java.lang.Integer.parseInt(Integer.java:770), md.json.components.BaseComponent.getBounds(BaseComponent.java:62), md.json.components.TextField.iterate(TextField.java:48), md.json.components.TextField.<init>(TextField.java:24), md.polarbeargame.views.GamePanel.<init>(GamePanel.java:46), md.polarbeargame.views.Frame.<init>(Frame.java:24), App.main(App.java:6)]
+
+For input string: " 700"
+
+[java.base/java.lang.NumberFormatException.forInputString(NumberFormatException.java:65), java.base/java.lang.Integer.parseInt(Integer.java:638), java.base/java.lang.Integer.parseInt(Integer.java:770), md.json.components.BaseComponent.getBounds(BaseComponent.java:62), md.json.components.TextField.iterate(TextField.java:48), md.json.components.TextField.<init>(TextField.java:24), md.polarbeargame.views.GamePanel.<init>(GamePanel.java:46), md.polarbeargame.views.Frame.<init>(Frame.java:24), App.main(App.java:6)]
+
+For input string: " 65"
+
+[java.base/java.lang.NumberFormatException.forInputString(NumberFormatException.java:65), java.base/java.lang.Integer.parseInt(Integer.java:638), java.base/java.lang.Integer.parseInt(Integer.java:770), md.json.components.BaseComponent.getBounds(BaseComponent.java:62), md.json.components.Button.iterate(Button.java:49), md.json.components.Button.<init>(Button.java:26), md.polarbeargame.views.GamePanel.<init>(GamePanel.java:56), md.polarbeargame.views.Frame.<init>(Frame.java:24), App.main(App.java:6)]
+
+For input string: " 165"
+
+[java.base/java.lang.NumberFormatException.forInputString(NumberFormatException.java:65), java.base/java.lang.Integer.parseInt(Integer.java:638), java.base/java.lang.Integer.parseInt(Integer.java:770), md.json.components.BaseComponent.getBounds(BaseComponent.java:62), md.json.components.Button.iterate(Button.java:49), md.json.components.Button.<init>(Button.java:26), md.polarbeargame.views.GamePanel.<init>(GamePanel.java:56), md.polarbeargame.views.Frame.<init>(Frame.java:24), App.main(App.java:6)]
+
+For input string: " 690"
+
+[java.base/java.lang.NumberFormatException.forInputString(NumberFormatException.java:65), java.base/java.lang.Integer.parseInt(Integer.java:638), java.base/java.lang.Integer.parseInt(Integer.java:770), md.json.components.BaseComponent.getBounds(BaseComponent.java:62), md.json.components.Button.iterate(Button.java:49), md.json.components.Button.<init>(Button.java:26), md.polarbeargame.views.GamePanel.<init>(GamePanel.java:56), md.polarbeargame.views.Frame.<init>(Frame.java:24), App.main(App.java:6)]
+
+For input string: " 90"
+
+[java.base/java.lang.NumberFormatException.forInputString(NumberFormatException.java:65), java.base/java.lang.Integer.parseInt(Integer.java:638), java.base/java.lang.Integer.parseInt(Integer.java:770), md.json.components.BaseComponent.getBounds(BaseComponent.java:63), md.json.components.Button.iterate(Button.java:49), md.json.components.Button.<init>(Button.java:26), md.polarbeargame.views.GamePanel.<init>(GamePanel.java:56), md.polarbeargame.views.Frame.<init>(Frame.java:24), App.main(App.java:6)]
+
+For input string: " 230"
+
+[java.base/java.lang.NumberFormatException.forInputString(NumberFormatException.java:65), java.base/java.lang.Integer.parseInt(Integer.java:638), java.base/java.lang.Integer.parseInt(Integer.java:770), md.json.components.BaseComponent.getBounds(BaseComponent.java:62), md.json.components.TextArea.iterate(TextArea.java:50), md.json.components.TextArea.<init>(TextArea.java:27), md.polarbeargame.views.GamePanel.<init>(GamePanel.java:61), md.polarbeargame.views.Frame.<init>(Frame.java:24), App.main(App.java:6)]
+
+For input string: " 65"
+
+[java.base/java.lang.NumberFormatException.forInputString(NumberFormatException.java:65), java.base/java.lang.Integer.parseInt(Integer.java:638), java.base/java.lang.Integer.parseInt(Integer.java:770), md.json.components.BaseComponent.getBounds(BaseComponent.java:62), md.json.components.TextField.iterate(TextField.java:48), md.json.components.TextField.<init>(TextField.java:24), md.polarbeargame.views.GamePanel.<init>(GamePanel.java:46), md.polarbeargame.views.Frame.<init>(Frame.java:24), App.main(App.java:6)]
+
+For input string: " 75"
+
+[java.base/java.lang.NumberFormatException.forInputString(NumberFormatException.java:65), java.base/java.lang.Integer.parseInt(Integer.java:638), java.base/java.lang.Integer.parseInt(Integer.java:770), md.json.components.BaseComponent.getBounds(BaseComponent.java:62), md.json.components.TextField.iterate(TextField.java:48), md.json.components.TextField.<init>(TextField.java:24), md.polarbeargame.views.GamePanel.<init>(GamePanel.java:46), md.polarbeargame.views.Frame.<init>(Frame.java:24), App.main(App.java:6)]
+
+For input string: " 105"
+
+[java.base/java.lang.NumberFormatException.forInputString(NumberFormatException.java:65), java.base/java.lang.Integer.parseInt(Integer.java:638), java.base/java.lang.Integer.parseInt(Integer.java:770), md.json.components.BaseComponent.getBounds(BaseComponent.java:62), md.json.components.TextField.iterate(TextField.java:48), md.json.components.TextField.<init>(TextField.java:24), md.polarbeargame.views.GamePanel.<init>(GamePanel.java:46), md.polarbeargame.views.Frame.<init>(Frame.java:24), App.main(App.java:6)]
+
+For input string: " 135"
+
+[java.base/java.lang.NumberFormatException.forInputString(NumberFormatException.java:65), java.base/java.lang.Integer.parseInt(Integer.java:638), java.base/java.lang.Integer.parseInt(Integer.java:770), md.json.components.BaseComponent.getBounds(BaseComponent.java:62), md.json.components.TextField.iterate(TextField.java:48), md.json.components.TextField.<init>(TextField.java:24), md.polarbeargame.views.GamePanel.<init>(GamePanel.java:46), md.polarbeargame.views.Frame.<init>(Frame.java:24), App.main(App.java:6)]
+
+For input string: " 700"
+
+[java.base/java.lang.NumberFormatException.forInputString(NumberFormatException.java:65), java.base/java.lang.Integer.parseInt(Integer.java:638), java.base/java.lang.Integer.parseInt(Integer.java:770), md.json.components.BaseComponent.getBounds(BaseComponent.java:62), md.json.components.TextField.iterate(TextField.java:48), md.json.components.TextField.<init>(TextField.java:24), md.polarbeargame.views.GamePanel.<init>(GamePanel.java:46), md.polarbeargame.views.Frame.<init>(Frame.java:24), App.main(App.java:6)]
+
+For input string: " 700"
+
+[java.base/java.lang.NumberFormatException.forInputString(NumberFormatException.java:65), java.base/java.lang.Integer.parseInt(Integer.java:638), java.base/java.lang.Integer.parseInt(Integer.java:770), md.json.components.BaseComponent.getBounds(BaseComponent.java:62), md.json.components.TextField.iterate(TextField.java:48), md.json.components.TextField.<init>(TextField.java:24), md.polarbeargame.views.GamePanel.<init>(GamePanel.java:46), md.polarbeargame.views.Frame.<init>(Frame.java:24), App.main(App.java:6)]
+
+For input string: " 700"
+
+[java.base/java.lang.NumberFormatException.forInputString(NumberFormatException.java:65), java.base/java.lang.Integer.parseInt(Integer.java:638), java.base/java.lang.Integer.parseInt(Integer.java:770), md.json.components.BaseComponent.getBounds(BaseComponent.java:62), md.json.components.TextField.iterate(TextField.java:48), md.json.components.TextField.<init>(TextField.java:24), md.polarbeargame.views.GamePanel.<init>(GamePanel.java:46), md.polarbeargame.views.Frame.<init>(Frame.java:24), App.main(App.java:6)]
+
+For input string: " 65"
+
+[java.base/java.lang.NumberFormatException.forInputString(NumberFormatException.java:65), java.base/java.lang.Integer.parseInt(Integer.java:638), java.base/java.lang.Integer.parseInt(Integer.java:770), md.json.components.BaseComponent.getBounds(BaseComponent.java:62), md.json.components.Button.iterate(Button.java:49), md.json.components.Button.<init>(Button.java:26), md.polarbeargame.views.GamePanel.<init>(GamePanel.java:56), md.polarbeargame.views.Frame.<init>(Frame.java:24), App.main(App.java:6)]
+
+For input string: " 165"
+
+[java.base/java.lang.NumberFormatException.forInputString(NumberFormatException.java:65), java.base/java.lang.Integer.parseInt(Integer.java:638), java.base/java.lang.Integer.parseInt(Integer.java:770), md.json.components.BaseComponent.getBounds(BaseComponent.java:62), md.json.components.Button.iterate(Button.java:49), md.json.components.Button.<init>(Button.java:26), md.polarbeargame.views.GamePanel.<init>(GamePanel.java:56), md.polarbeargame.views.Frame.<init>(Frame.java:24), App.main(App.java:6)]
+
+For input string: " 690"
+
+[java.base/java.lang.NumberFormatException.forInputString(NumberFormatException.java:65), java.base/java.lang.Integer.parseInt(Integer.java:638), java.base/java.lang.Integer.parseInt(Integer.java:770), md.json.components.BaseComponent.getBounds(BaseComponent.java:62), md.json.components.Button.iterate(Button.java:49), md.json.components.Button.<init>(Button.java:26), md.polarbeargame.views.GamePanel.<init>(GamePanel.java:56), md.polarbeargame.views.Frame.<init>(Frame.java:24), App.main(App.java:6)]
+
+For input string: " 90"
+
+[java.base/java.lang.NumberFormatException.forInputString(NumberFormatException.java:65), java.base/java.lang.Integer.parseInt(Integer.java:638), java.base/java.lang.Integer.parseInt(Integer.java:770), md.json.components.BaseComponent.getBounds(BaseComponent.java:63), md.json.components.Button.iterate(Button.java:49), md.json.components.Button.<init>(Button.java:26), md.polarbeargame.views.GamePanel.<init>(GamePanel.java:56), md.polarbeargame.views.Frame.<init>(Frame.java:24), App.main(App.java:6)]
+
+For input string: " 230"
+
+[java.base/java.lang.NumberFormatException.forInputString(NumberFormatException.java:65), java.base/java.lang.Integer.parseInt(Integer.java:638), java.base/java.lang.Integer.parseInt(Integer.java:770), md.json.components.BaseComponent.getBounds(BaseComponent.java:62), md.json.components.TextArea.iterate(TextArea.java:50), md.json.components.TextArea.<init>(TextArea.java:27), md.polarbeargame.views.GamePanel.<init>(GamePanel.java:61), md.polarbeargame.views.Frame.<init>(Frame.java:24), App.main(App.java:6)]
+
+Listener
+md.json.componentsec.json.components
+[md.polarbeargame.components.TextField.iterate(TextField.java:72), md.polarbeargame.components.TextField.<init>(TextField.java:24), md.polarbeargame.views.GamePanel.<init>(GamePanel.java:46), md.polarbeargame.views.Frame.<init>(Frame.java:24), App.main(App.java:6)]
+
+Liec.json.componentsec.json.components
+
+[md.polarbeargame.components.TextField.iterate(TextField.java:72), md.polarbeargame.components.TextField.<init>(TextField.java:24), md.polarbeargame.views.GamePanel.<init>(GamePanel.java:46), md.polarbeargame.views.Frame.<init>(Frame.java:24), App.main(App.java:6)]
+md.json.componentsec.json.components
+Listener
+
+[eec.json.componentsTextField.iterate(TextField.java:72), eec.json.componentsTextField.<init>(TextField.java:24), md.polarbeargame.views.GamePanel.<init>(GamePanel.java:46), md.polarbeargame.views.Frame.<init>(Frame.java:24), App.main(App.java:6)]
+
+Listener
+md.json.componentsec.json.components
+[md.polarbeargame.components.TextField.iterate(TextField.java:72), md.polarbeargame.components.TextField.<init>(TextField.java:24), md.polarbeargame.views.GamePanel.<init>(GamePanel.java:46), md.polarbeargame.views.Frame.<init>(Frame.java:24), App.main(App.java:6)]
+
+Liec.json.componentsec.json.components
+
+[md.polarbeargame.components.TextField.iterate(TextField.java:72), md.polarbeargame.components.TextField.<init>(TextField.java:24), md.polarbeargame.views.GamePanel.<init>(GamePanel.java:46), md.polarbeargame.views.Frame.<init>(Frame.java:24), App.main(App.java:6)]
+md.json.componentsec.json.components
+Listener
+
+[eec.json.componentsTextField.iterate(TextField.java:md.json.componentsnents.TextField.<init>(TextField.java:24), md.polarbeargame.views.GamePanel.<init>(GamePanel.java:46), md.polarbeargame.views.Frame.<init>(Frame.java:24), App.main(App.java:6)]
+
+Listener
+md.json.componentsec.json.components
+[md.polarbeargame.components.TextField.iterate(TextField.java:72), md.polarbeargame.components.TextField.<init>(TextField.java:24), md.polarbeargame.views.GamePanel.<init>(GamePanel.java:46), md.polarbeargame.views.Frame.<init>(Frame.java:24), App.main(App.java:6)]
+
+Liec.json.componentsec.json.components
+
+[md.polarbeargame.components.Button.iterate(Button.java:73), md.polarbeargame.components.Button.<init>(Button.java:26), md.polarbeargame.views.GamePanel.<init>(GamePanel.java:56), md.polarbeargame.views.Frame.<init>(Frame.java:24), App.main(App.java:6)]
+md.json.componentsec.json.components
+Listener
+
+[eec.json.componentsButton.iterate(Button.java:73), md.poec.json.componentson.<init>(Button.java:26), md.polarbeargame.views.GamePanel.<init>(GamePanel.java:56), md.polarbeargame.views.Frame.<init>(Frame.java:24), App.main(App.java:6)]
+
+Listener
+md.json.componentsec.json.componentsec.json.componentsec.json.components
+[md.polarbeargame.components.Button.iterate(Button.java:73), md.polarbeargame.components.Button.<init>(Button.java:26), md.polarbeargame.views.GamePanel.<init>(GamePanel.java:56), md.polarbeargame.views.Frame.<init>(Frame.java:24), App.main(App.java:6)]
+
+Listenerec.json.componentsec.json.componentsec.json.componentsec.json.components
+
+[md.polarbeargame.components.Button.iterate(Button.java:73), md.polarbeargame.components.Button.<init>(Button.java:26), md.polarbeargame.views.GamePanel.<init>(GamePanel.java:56), md.polarbeargame.views.Frame.<init>(Frame.java:24), App.main(App.java:6)]
+md.json.componentsec.json.componentsec.json.componentsec.json.components
+Listener
+
+[md.polarbeargame.components.TextArea.iterate(TextArea.java:89), md.polarbeargame.components.TextArea.<init>(TextArea.java:27), md.polarbeargame.views.GamePanel.<init>(GamePanel.java:61), md.polarbeargame.views.Frame.<init>(Frame.java:24), App.main(App.java:6)]md.json.componentsec.json.componentsec.json.componentsec.json.components
+
+md.polarbeargame.listeners.WerpHandler
+
+[java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:582), java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:178), java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:521), java.base/java.lang.Class.forName0(Native Method), java.base/java.lang.Class.forName(Class.java:315), md.polarbeargame.components.BaseComponent.getListener(BaseComponent.java:133), md.polarbeargame.components.BaseComponent.setListeners(BaseComponent.java:152), md.polarbeargame.components.Button.iterate(Button.java:68), md.polarbeargame.components.Button.<init>(Button.java:26), md.polarbeargame.views.GamePanel.<init>(GamePanel.java:56), md.polarbeargame.views.Frame.<init>(Frame.java:24), App.main(App.java:6)]
+
+md.polarbeargame.listeners.CheckHandler
+
+[java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:582), java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:178), java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:521), java.base/java.lang.Class.forName0(Native Method), java.base/java.lang.Class.forName(Class.java:315), md.polarbeargame.components.BaseComponent.getListener(BaseComponent.java:133), md.polarbeargame.components.BaseComponent.setListeners(BaseComponent.java:152), md.polarbeargame.components.Button.iterate(Button.java:68), md.polarbeargame.components.Button.<init>(Button.java:26), md.polarbeargame.views.GamePanel.<init>(GamePanel.java:56), md.polarbeargame.views.Frame.<init>(Frame.java:24), App.main(App.java:6)]
+
+md.polarbeargame.listeners.RestartHandler
+
+[java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:582), java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:178), java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:521), java.base/java.lang.Class.forName0(Native Method), java.base/java.lang.Class.forName(Class.java:315), md.polarbeargame.components.BaseComponent.getListener(BaseComponent.java:133), md.polarbeargame.components.BaseComponent.setListeners(BaseComponent.java:152), md.polarbeargame.components.Button.iterate(Button.java:68), md.polarbeargame.components.Button.<init>(Button.java:26), md.polarbeargame.views.GamePanel.<init>(GamePanel.java:56), md.polarbeargame.views.Frame.<init>(Frame.java:24), App.main(App.java:6)]
+
+md.polarbeargame.listeners.AnswerHandler
+
+[java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:582), java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:178), java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:521), java.base/java.lang.Class.forName0(Native Method), java.base/java.lang.Class.forName(Class.java:315), md.polarbeargame.components.BaseComponent.getListener(BaseComponent.java:133), md.polarbeargame.components.BaseComponent.setListeners(BaseComponent.java:152), md.polarbeargame.components.Button.iterate(Button.java:68), md.polarbeargame.components.Button.<init>(Button.java:26), md.polarbeargame.views.GamePanel.<init>(GamePanel.java:56), md.polarbeargame.views.Frame.<init>(Frame.java:24), App.main(App.java:6)]

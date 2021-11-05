@@ -1,0 +1,356 @@
+{
+    "Layout": null,
+    "Background": "255,236,204",
+    "Tips": [
+        "\n - Vul een geldig getal in de tekstvelden",
+        "\n- je moet tussen de 3 en 12 dobbelstenen gooien",
+        "Ijsberen kunnen niet leven zonder wakes.",
+        "Pinguins leven op de zuidpool, polarBears op de noordpool.",
+        "De wakken zijn gaten in het ijs.",
+        "De wakken zijn de middelste stippen.",
+        "De ijsberen zijn de punten om de wak.",
+        "De pinguins, wakken en ijsberen opgeteld bij 1 steen zijn samen 7.",
+        "Het lukt niet, ofwel?.",
+        "Blijf proberen, je kunt het wel!",
+        "Pinguins zijn bang voor polarBears.",
+        "Misschien handig om het antwoord te bekijken?"
+    ],
+    "Components": [
+        {
+            "Name": "tfdDices",
+            "Type": "TextField",
+            "Text": "",
+            "Bounds": "620, 65, 20, 20",
+            "Color": "default",
+            "Enabled": true,
+            "Font": "default",
+            "Listeners": [
+                {
+                    "Type": "KeyListener",
+                    "Name": "NumericKeyListener"
+                }
+            ]
+        },
+        {
+            "Name": "tfdWakes",
+            "Type": "TextField",
+            "Text": "",
+            "Bounds": "350, 75, 50, 20",
+            "Color": "default",
+            "Enabled": true,
+            "Font": "default",
+            "Listeners": [
+                {
+                    "Type": "KeyListener",
+                    "Name": "NumericKeyListener"
+                }
+            ]
+        },
+        {
+            "Name": "tfdPolarBears",
+            "Type": "TextField",
+            "Text": "",
+            "Bounds": "350, 105, 50, 20",
+            "Color": "default",
+            "Enabled": true,
+            "Font": "default",
+            "Listeners": [
+                {
+                    "Type": "KeyListener",
+                    "Name": "NumericKeyListener"
+                }
+            ]
+        },
+        {
+            "Name": "tfdPinguins",
+            "Type": "TextField",
+            "Text": "",
+            "Bounds": "350, 135, 50, 20",
+            "Color": "default",
+            "Enabled": true,
+            "Font": "default",
+            "Listeners": [
+                {
+                    "Type": "KeyListener",
+                    "Name": "NumericKeyListener"
+                }
+            ]
+        },
+        {
+            "Name": "tfdWakesAnswer",
+            "Type": "TextField",
+            "Text": "",
+            "Bounds": "300, 500, 50, 20",
+            "Color": "blue",
+            "Enabled": false,
+            "Font": {
+                "Name": "Verdana",
+                "Style": "Bold",
+                "Size": 15
+            },
+            "Listeners": [
+                {
+                    "Type": "KeyListener",
+                    "Name": "NumericKeyListener"
+                }
+            ]
+        },
+        {
+            "Name": "tfdPolarAnswer",
+            "Type": "TextField",
+            "Text": "",
+            "Bounds": "355, 500, 50, 20",
+            "Color": "blue",
+            "Enabled": false,
+            "Font": {
+                "Name": "Verdana",
+                "Style": "Bold",
+                "Size": 15
+            },
+            "Listeners": [
+                {
+                    "Type": "KeyListener",
+                    "Name": "NumericKeyListener"
+                }
+            ]
+        },
+        {
+            "Name": "tfdPinguinsAnswer",
+            "Type": "TextField",
+            "Text": "",
+            "Bounds": "410, 500, 50, 20",
+            "Color": "blue",
+            "Enabled": false,
+            "Font": {
+                "Name": "Verdana",
+                "Style": "Bold",
+                "Size": 15
+            },
+            "Listeners": [
+                {
+                    "Type": "KeyListener",
+                    "Name": "NumericKeyListener"
+                }
+            ]
+        },
+        {
+            "Name": "btnThrowDices",
+            "Type": "Button",
+            "Text": "Werp",
+            "Bounds": "650, 65, 90,20",
+            "Listeners": [
+                {
+                    "Type": "ActionListener",
+                    "Name": "ThrowDiceListener"
+                }
+            ]
+        },
+        {
+            "Name": "btnCheckAnswer",
+            "Type": "Button",
+            "Text": "Check",
+            "Bounds": "250, 165, 90, 20",
+            "Enabled": false,
+            "Listeners": [
+                {
+                    "Type": "ActionListener",
+                    "Name": "AnswerCheckListener"
+                }
+            ]
+        },
+        {
+            "Name": "btnRestart",
+            "Type": "Button",
+            "Text": "New game",
+            "Bounds": "615, 500, 135, 30",
+            "Enabled": true,
+            "Listeners": [
+                {
+                    "Type": "ActionListener",
+                    "Name": "NewGameListener"
+                }
+            ]
+        },
+        {
+            "Name": "btnShowAnswer",
+            "Type": "Button",
+            "Text": "Show Answer",
+            "Bounds": "465, 500, 90,20",
+            "Enabled": false,
+            "Listeners": [
+                {
+                    "Type": "ActionListener",
+                    "Name": "ShowAnswerListener"
+                }
+            ]
+        },
+        {
+            "Name": "jtaTips",
+            "Type": "TextArea",
+            "Text": "",
+            "Bounds": "255, 230, 310, 300",
+            "Foreground": "yellow",
+            "Background": "gray",
+            "WrapStyleWords": true,
+            "Editable": false,
+            "LineWrap": true,
+            "Font": "default",
+            "Listeners": [
+                {
+                    "Type": "KeyListener",
+                    "Name": "NumericKeyListener"
+                }
+            ]
+        },
+        {
+            "Name": "lblDices",
+            "Type": "Label",
+            "Text": "Aantal dobbelstenen:",
+            "Bounds": "490, 65, 120, 20"
+        },
+        {
+            "Name": "lblWakes",
+            "Type": "Label",
+            "Text": "Aantal Wakken:",
+            "Bounds": "250, 75, 100, 20"
+        },
+        {
+            "Name": "lblPolarBears",
+            "Type": "Label",
+            "Text": "Aantal Ijsberen:",
+            "Bounds": "250, 105, 100, 20"
+        },
+        {
+            "Name": "lblPinguins",
+            "Type": "Label",
+            "Text": "Aantal Pinguins:",
+            "Bounds": "250, 135, 100, 20"
+        },
+        {
+            "Name": "lblAnswerWakes",
+            "Type": "Label",
+            "Text": "Wakken:",
+            "Bounds": "300, 500, 100, 20"
+        },
+        {
+            "Name": "lblAnswerPolarBears",
+            "Type": "Label",
+            "Text": "Ijsberen:",
+            "Bounds": "355, 500, 100, 20"
+        },
+        {
+            "Name": "lblAnswerPinguins",
+            "Type": "Label",
+            "Text": "Pinguins:",
+            "Bounds": "410, 500, 100, 20"
+        },
+        {
+            "Name": "Title",
+            "Type": "Label",
+            "Text": "Welkom bij het Wakkenspel!",
+            "Bounds": "250, 25, 700, 30",
+            "Color": "yellow",
+            "Font": {
+                "Name": "Verdana",
+                "Style": "Plain",
+                "Size": 25
+            }
+        },
+        {
+            "Name": "",
+            "Type": "Label",
+            "Text": "aantal keer gegooid:",
+            "Bounds": "605, 300, 150, 20",
+            "Color": "white",
+            "Font": {
+                "Name": "Verdana",
+                "Style": "Plain",
+                "Size": 11
+            }
+        },
+        {
+            "Name": "",
+            "Type": "Label",
+            "Text": "aantal gegooide stenen:",
+            "Bounds": "605, 320, 150, 20",
+            "Color": "white",
+            "Font": {
+                "Name": "Verdana",
+                "Style": "Plain",
+                "Size": 11
+            }
+        },
+        {
+            "Name": "",
+            "Type": "Label",
+            "Text": "aantal goed:",
+            "Bounds": "605, 345, 100, 20",
+            "Color": "white",
+            "Font": {
+                "Name": "Verdana",
+                "Style": "Plain",
+                "Size": 11
+            }
+        },
+        {
+            "Name": "",
+            "Type": "Label",
+            "Text": "aantal fout:",
+            "Bounds": "605, 365, 100, 20",
+            "Color": "white",
+            "Font": {
+                "Name": "Verdana",
+                "Style": "Plain",
+                "Size": 11
+            }
+        },
+        {
+            "Name": "lblTimesThrowed",
+            "Type": "Label",
+            "Text": "0",
+            "Bounds": "745, 300, 20, 20",
+            "Color": "yellow",
+            "Font": {
+                "Name": "Verdana",
+                "Style": "Plain",
+                "Size": 11
+            }
+        },
+        {
+            "Name": "lblTotalDices",
+            "Type": "Label",
+            "Text": "0",
+            "Bounds": "745, 320, 20, 20",
+            "Color": "yellow",
+            "Font": {
+                "Name": "Verdana",
+                "Style": "Plain",
+                "Size": 11
+            }
+        },
+        {
+            "Name": "lblScore",
+            "Type": "Label",
+            "Text": "0",
+            "Bounds": "745, 345, 20, 20",
+            "Color": "yellow",
+            "Font": {
+                "Name": "Verdana",
+                "Style": "Plain",
+                "Size": 11
+            }
+        },
+        {
+            "Name": "lblChances",
+            "Type": "Label",
+            "Text": "0",
+            "Bounds": "745, 365, 20, 20",
+            "Color": "yellow",
+            "Font": {
+                "Name": "Verdana",
+                "Style": "Plain",
+                "Size": 11
+            }
+        }
+    ]
+}
