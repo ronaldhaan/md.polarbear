@@ -31,7 +31,7 @@ public class Data {
 
     private Data(JPanel panel, Map<String, Component> components) {
         this.panel = panel;
-        this.components = new ComponentCollection(components);        
+        this.components = new ComponentCollection(components);
         diceCollection = new DiceCollection();
         tips = new ArrayList<>();
     }
@@ -46,7 +46,7 @@ public class Data {
 
     public List<String> getTips() {
         return tips;
-    }   
+    }
 
     public void addTip(int index) {
         components.addText("jtaTips", getTips().get(index));
@@ -55,7 +55,7 @@ public class Data {
     public void setTips(List<String> tips) {
         this.tips = tips;
     }
-    
+
     public DiceCollection getDiceCollection() {
         return diceCollection;
     }
@@ -84,12 +84,12 @@ public class Data {
     }
 
     public int addChance() {
-        setChances(++chances);  
+        setChances(++chances);
         return chances;
     }
 
     private void setChances(int chances) {
-        components.setText("lblChances", String.valueOf(chances));        
+        components.setText("lblChances", String.valueOf(chances));
         this.chances = chances;
     }
 
@@ -100,7 +100,7 @@ public class Data {
 
     private void setTimesThrowed(int timesThrowed) {
         this.timesThrowed = timesThrowed;
-        components.setText("lblTimesThrowed",String.valueOf(timesThrowed));
+        components.setText("lblTimesThrowed", String.valueOf(timesThrowed));
     }
 
     public int getChances() {
@@ -114,18 +114,20 @@ public class Data {
     public <T extends Component> T get(String name) {
         try {
             return components.get(name);
-        } catch(Exception ex) {
+        } catch (Exception ex) {
             Utility.handleUnexpectedException(ExceptionCodes.DATA, ex);
             return null;
         }
     }
 
-	public int getTimesThrowed() {
-		return timesThrowed;
-	}
+    public int getTimesThrowed() {
+        return timesThrowed;
+    }
 
-    public void repaint() { panel.repaint(); }
-    
+    public void repaint() {
+        panel.repaint();
+    }
+
     public void clear() {
         setScore(0);
         setChances(0);
@@ -135,5 +137,7 @@ public class Data {
         diceCollection.clear();
     }
 
-    public void resetComponents() { components.resetComponents(); }
+    public void resetComponents() {
+        components.resetComponents();
+    }
 }

@@ -12,10 +12,11 @@ import md.shared.mapper.Mapper;
 
 public class App {
     public static void main(String[] args) {
-        JsonObject settingsJson = JsonFile.get(Path.of(MdFiles.getRootFolder().toString(), "src", "ec", "polarbeargame", "appsettings.json"));
+        JsonObject settingsJson = JsonFile
+                .get(Path.of(MdFiles.getRootFolder().toString(), "src", "md", "polarbeargame", "appsettings.json"));
         AppSettings settings = Mapper.map(settingsJson, AppSettings.class);
 
-        if(settings != null){
+        if (settings != null) {
             new Frame(settings);
         } else {
             new Frame();

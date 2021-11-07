@@ -8,7 +8,7 @@ import java.util.List;
 import java.util.function.ToIntFunction;
 
 public class DiceCollection implements Iterable<Dice> {
-    
+
     private List<Dice> dices;
 
     public DiceCollection() {
@@ -17,7 +17,7 @@ public class DiceCollection implements Iterable<Dice> {
 
     public boolean add(Dice dice) {
         dice.setEyes();
-        return dices.add(dice);        
+        return dices.add(dice);
     }
 
     public void clear() {
@@ -49,4 +49,3 @@ public class DiceCollection implements Iterable<Dice> {
         return dices.iterator();
     }
 }
-

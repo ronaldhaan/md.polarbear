@@ -5,34 +5,25 @@ import java.lang.Thread.State;
 import md.shared.Utility;
 import md.shared.exceptions.IExceptionCodes;
 
-public enum ExceptionCodes implements IExceptionCodes{
-    
-    //BaseComponent.java
-    BCT1,
-    BCT2,
-    BCT3,
-    BCT4,
+public enum ExceptionCodes implements IExceptionCodes {
 
-    //AnswerCheckListener.java
-    ACR1 ,
+    // BaseComponent.java
+    BCT1, BCT2, BCT3, BCT4,
 
-    //NumericKeyListener.java
+    // AnswerCheckListener.java
+    ACR1,
+
+    // NumericKeyListener.java
     NKR1,
 
-    //ShowAnswerListener.java
+    // ShowAnswerListener.java
     SAR1,
 
-    //AnswerCheckListener.java
-    TDR1,
-    TDR2,
+    // AnswerCheckListener.java
+    TDR1, TDR2,
 
-    //GamePanel.java
-    GPL1,
-    DATA,
-    EVENT1,
-    EVENT2,
-    FRAME1,
-    DICE1;
+    // GamePanel.java
+    GPL1, DATA, EVENT1, EVENT2, FRAME1, DICE1;
 
     @Override
     public String[] getCodes() {

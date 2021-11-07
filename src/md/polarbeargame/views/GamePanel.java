@@ -11,10 +11,10 @@ import com.google.gson.JsonArray;
 import com.google.gson.JsonElement;
 import com.google.gson.JsonObject;
 
+import md.json.awt.JColor;
 import md.json.components.JsonPanel;
 import md.polarbeargame.exceptions.ExceptionCodes;
 import md.polarbeargame.models.Data;
-import md.polarbeargame.models.JColor;
 import md.shared.Utility;
 
 public class GamePanel extends JsonPanel {
@@ -41,12 +41,12 @@ public class GamePanel extends JsonPanel {
                 if (jsonComponent.isJsonObject()) {
                     JsonObject object = jsonComponent.getAsJsonObject();
                     String type = object.get("Type").getAsString();
-                    
+
                     try {
                         Class<?> c = Class.forName("md.json.components." + type);
                         Constructor<?> constr = c.getConstructor(JsonObject.class);
-                        Component component = (Component)constr.newInstance(object);
-                        
+                        Component component = (Component) constr.newInstance(object);
+
                         String name = object.get("Name").getAsString();
                         components.put(name, component);
                         add(component);

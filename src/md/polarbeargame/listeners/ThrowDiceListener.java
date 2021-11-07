@@ -12,8 +12,7 @@ import md.polarbeargame.models.DiceCollection;
 import md.polarbeargame.models.Data;
 import md.shared.Utility;
 
-public class ThrowDiceListener implements ActionListener 
-{
+public class ThrowDiceListener implements ActionListener {
     private DiceCollection dices;
     private Data data;
 
@@ -22,26 +21,26 @@ public class ThrowDiceListener implements ActionListener
         getCollection();
     }
 
-    private void getCollection() {        
+    private void getCollection() {
         dices = data.getDiceCollection();
     }
 
     @Override
-    public void actionPerformed(ActionEvent e) {        
+    public void actionPerformed(ActionEvent e) {
         if (data == null) {
             data = Data.getInstance();
         }
-        
-        if(data != null) {
+
+        if (data != null) {
             try {
-                if(dices == null) {
+                if (dices == null) {
                     getCollection();
                 }
 
-                String strDices = ((TextField)data.get("tfdDices")).getText();
+                String strDices = ((TextField) data.get("tfdDices")).getText();
                 data.resetComponents();
                 dices.clear();
-                ((TextField)data.get("tfdDices")).setText(strDices);
+                ((TextField) data.get("tfdDices")).setText(strDices);
 
                 if (!Utility.isNumeric(strDices)) {
                     data.addTip(0);
@@ -49,13 +48,13 @@ public class ThrowDiceListener implements ActionListener
                     int totalDices = Integer.parseInt(strDices);
 
                     if (totalDices < 3 || totalDices > 12) {
-                        data.addTip(1);                    
+                        data.addTip(1);
                     } else {
                         data.addTimeThrowed();
-                        ((Button)data.get("btnShowAnswer")).setEnabled(true);
-                        ((Button)data.get("btnCheckAnswer")).setEnabled(true);
-                        ((Button)data.get("btnRestart")).setEnabled(true);
-                        ((Button)e.getSource()).setEnabled(false);
+                        ((Button) data.get("btnShowAnswer")).setEnabled(true);
+                        ((Button) data.get("btnCheckAnswer")).setEnabled(true);
+                        ((Button) data.get("btnRestart")).setEnabled(true);
+                        ((Button) e.getSource()).setEnabled(false);
                     }
 
                     setPos(totalDices);
@@ -74,17 +73,17 @@ public class ThrowDiceListener implements ActionListener
      * @since 07-06-2017
      */
     private void setPos(int totalDices) {
-        try {            
+        try {
             data.setTotalDices(totalDices);
 
             int x = 20;
             int y = 20;
             int size = 45;
-            int margin = size/2;
+            int margin = size / 2;
 
             if (totalDices < 13 && totalDices > 2) {
                 int i = 0;
-                while(i < totalDices) {                    
+                while (i < totalDices) {
                     if (x > 200) {
                         y += size + margin;
                         x = 20;
@@ -99,5 +98,5 @@ public class ThrowDiceListener implements ActionListener
             Utility.handleUnexpectedException(ExceptionCodes.TDR2, ex, true);
         }
     }
-    
+
 }

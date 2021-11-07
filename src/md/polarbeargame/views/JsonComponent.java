@@ -31,7 +31,8 @@ public abstract class JsonComponent extends JComponent {
     }
 
     public JsonObject getJsonfileJsonObject(String className) {
-        return JsonFile.get(Path.of(MdFiles.getRootFolder().toString(), "src", "ec", "polarbeargame", "views", className+".json"));
+        return JsonFile.get(Path.of(MdFiles.getRootFolder().toString(), "src", "ec", "polarbeargame", "views",
+                className + ".json"));
     }
 
     public Rectangle getBounds(String bounds) throws NumberFormatException {
@@ -40,8 +41,8 @@ public abstract class JsonComponent extends JComponent {
 
         if (values.length != 4)
             return null;
-        
-        for(int i = 0; i < values.length; i++) {
+
+        for (int i = 0; i < values.length; i++) {
             values[i] = values[i].trim();
         }
 
@@ -61,35 +62,34 @@ public abstract class JsonComponent extends JComponent {
     public Color getColor(String sColor) {
         Color color;
 
-        if(sColor.contains(",")) {
+        if (sColor.contains(",")) {
             //
             color = getColorFromRGB(sColor);
-        }
-        else {
+        } else {
             color = getColorFromName(sColor);
         }
 
-        if(color == null) {
+        if (color == null) {
             color = Color.black;
         }
-        
+
         return color;
     }
 
     public Color getColorFromRGB(String rgb) {
         String[] values = rgb.split(",");
 
-        if(values.length == 3) {
+        if (values.length == 3) {
             try {
                 int r = Integer.parseInt(values[0]);
                 int g = Integer.parseInt(values[1]);
                 int b = Integer.parseInt(values[2]);
                 return new Color(r, g, b);
-            } catch(NumberFormatException ex) {
-                Utility.handleUnexpectedException(ExceptionCodes.BCT2, ex);                                      
+            } catch (NumberFormatException ex) {
+                Utility.handleUnexpectedException(ExceptionCodes.BCT2, ex);
             }
         }
-        
+
         return null;
     }
 
@@ -97,8 +97,9 @@ public abstract class JsonComponent extends JComponent {
         try {
             if (!colorIsNullOrDefault(name)) {
                 Field field = Class.forName(Color.class.getName()).getField(name);
-                if(field != null) {
-                    return (Color)field.get(null); // because a color is a static field, the argument of Field.get() will be ignored.
+                if (field != null) {
+                    return (Color) field.get(null); // because a color is a static field, the argument of Field.get()
+                                                    // will be ignored.
                 }
             }
         } catch (Exception ex) {
@@ -108,48 +109,49 @@ public abstract class JsonComponent extends JComponent {
         return null;
     }
 
-    @SuppressWarnings (value="unchecked")
-    public <T> T getListener(String name) throws ClassNotFoundException, NoSuchMethodException, InvocationTargetException, InstantiationException, IllegalAccessException  {
+    @SuppressWarnings(value = "unchecked")
+    public <T> T getListener(String name) throws ClassNotFoundException, NoSuchMethodException,
+            InvocationTargetException, InstantiationException, IllegalAccessException {
         Class<?> classs = Class.forName("md.polarbeargame.listeners." + name);
         Constructor<?> constructor = classs.getConstructor();
-        return (T)constructor.newInstance();
-	}
+        return (T) constructor.newInstance();
+    }
 
-	public void setListeners(Component c, JsonArray jsonArray) {
+    public void setListeners(Component c, JsonArray jsonArray) {
         final String klName = KeyListener.class.getSimpleName();
         final String alName = ActionListener.class.getSimpleName();
 
         for (JsonElement el : jsonArray) {
-            if(el.isJsonObject()) {
+            if (el.isJsonObject()) {
                 JsonObject obj = el.getAsJsonObject();
                 String type = obj.get("Type").getAsString();
                 String name = obj.get("Name").getAsString();
 
                 try {
-                    if(c instanceof Button && type.equals(alName)) {
-                        Button b = (Button)c;
+                    if (c instanceof Button && type.equals(alName)) {
+                        Button b = (Button) c;
                         ActionListener al = getListener(name);
                         b.addActionListener(al);
-                    } else if(type.equals(klName)) {
+                    } else if (type.equals(klName)) {
                         KeyListener kl = getListener(name);
                         c.addKeyListener(kl);
-                    }                    
-                } catch(Exception ex) {
+                    }
+                } catch (Exception ex) {
                     Utility.handleUnexpectedException(ExceptionCodes.BCT4, ex);
                 }
             }
         }
-	}
+    }
 
     public ArrayList<String> getAsArray(JsonArray jsonArray) {
-        ArrayList<String> list = new ArrayList<>();  
-        if (jsonArray != null) { 
+        ArrayList<String> list = new ArrayList<>();
+        if (jsonArray != null) {
             int len = jsonArray.size();
-            for (int i=0;i<len;i++){ 
+            for (int i = 0; i < len; i++) {
                 list.add(jsonArray.get(i).getAsString());
-            } 
-        }   
-        
+            }
+        }
+
         return list;
     }
 

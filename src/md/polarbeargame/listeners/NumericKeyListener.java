@@ -15,21 +15,21 @@ public class NumericKeyListener implements KeyListener {
             if (key < '0' || key > '9') {
                 e.consume();
             }
-        } catch(Exception ex) {
+        } catch (Exception ex) {
             Utility.handleUnexpectedException(ExceptionCodes.NKR1, ex, true);
         }
     }
 
     @Override
     public void keyPressed(KeyEvent e) {
-        // 
+        //
 
     }
 
     @Override
     public void keyReleased(KeyEvent e) {
-        // 
+        //
 
     }
-    
+
 }

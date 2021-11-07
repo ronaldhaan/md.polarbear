@@ -48,19 +48,19 @@ public class Frame extends JsonFrame {
     }
 
     private void setContentPane(JsonElement jsonElement) {
-        if(jsonElement != null) {
+        if (jsonElement != null) {
             try {
                 Class<?> c = Class.forName("md.polarbeargame.views." + jsonElement.getAsString());
                 Constructor<?> constructor = c.getConstructor();
-                super.setContentPane((Container)constructor.newInstance());
-            } catch(Exception ex) {
+                super.setContentPane((Container) constructor.newInstance());
+            } catch (Exception ex) {
                 Utility.handleUnexpectedException(ExceptionCodes.FRAME1, ex);
             }
         }
     }
 
     private void setResizable(JsonElement jsonElement) {
-        if(jsonElement == null) {
+        if (jsonElement == null) {
             setResizable(true);
         } else {
             setResizable(jsonElement.getAsBoolean());

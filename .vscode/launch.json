@@ -9,6 +9,13 @@
             "name": "Launch App",
             "request": "launch",
             "mainClass": "md.polarbeargame.App",
+            "projectName": "md.polarbear_26a63570"
+        },
+        {
+            "type": "java",
+            "name": "Launch App",
+            "request": "launch",
+            "mainClass": "md.polarbeargame.App",
             "projectName": "poloarbeargame_4f35e1d"
         },
         {

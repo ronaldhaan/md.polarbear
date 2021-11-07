@@ -6,5 +6,5 @@ public class ValueNotNumericException extends Exception {
     public ValueNotNumericException(String message) {
         super(message);
     }
-    
+
 }
