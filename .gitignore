@@ -1,2 +1,9 @@
 ./bin/
 ./.vscode/
+/bin/
+/.vscode/
+bin/
+.vscode/
+./src/log/
+/src/log/
+src/log/
