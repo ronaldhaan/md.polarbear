@@ -1,17 +1,8 @@
 package md.polarbeargame.views;
 
-import java.awt.Component;
 import java.awt.Color;
 import java.awt.Graphics;
-import java.lang.reflect.Constructor;
-import java.util.HashMap;
-import java.util.Map;
 
-import com.google.gson.JsonArray;
-import com.google.gson.JsonElement;
-import com.google.gson.JsonObject;
-
-import md.json.awt.JColor;
 import md.json.components.JsonPanel;
 import md.polarbeargame.exceptions.ExceptionCodes;
 import md.polarbeargame.models.Data;
@@ -24,38 +15,15 @@ public class GamePanel extends JsonPanel {
 
     public GamePanel() {
         super(GamePanel.class);
-        initializeComponent();
     }
 
-    private void initializeComponent() {
+    @Override
+    protected void initializecomponent() {
         setLayout(null);
-        Map<String, Component> components = new HashMap<>();
-        Data.initialize(this, components);
+        super.initializecomponent();
+        Data.initialize(this, getJComponents());
 
         if (getJsonData() != null) {
-            String background = getJsonData().get("Background").getAsString();
-            setBackground(new JColor(background));
-
-            JsonArray jComponents = getJsonData().get("Components").getAsJsonArray();
-            for (JsonElement jsonComponent : jComponents) {
-                if (jsonComponent.isJsonObject()) {
-                    JsonObject object = jsonComponent.getAsJsonObject();
-                    String type = object.get("Type").getAsString();
-
-                    try {
-                        Class<?> c = Class.forName("md.json.components." + type);
-                        Constructor<?> constr = c.getConstructor(JsonObject.class);
-                        Component component = (Component) constr.newInstance(object);
-
-                        String name = object.get("Name").getAsString();
-                        components.put(name, component);
-                        add(component);
-                    } catch (Exception ex) {
-
-                    }
-                }
-            }
-
             data = Data.getInstance();
             data.setTips(getAsArray(getJsonData().get("Tips").getAsJsonArray()));
         }
