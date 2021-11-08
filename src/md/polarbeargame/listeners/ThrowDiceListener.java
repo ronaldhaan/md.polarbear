@@ -17,8 +17,7 @@ public class ThrowDiceListener implements ActionListener {
     private Data data;
 
     public ThrowDiceListener() {
-        data = Data.getInstance();
-        getCollection();
+       
     }
 
     private void getCollection() {

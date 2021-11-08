@@ -27,14 +27,14 @@
             "Listeners": [
                 {
                     "Type": "KeyListener",
-                    "Name": "NumericKeyListener"
+                    "Name": "md.polarbeargame.listeners.NumericKeyListener"
                 }
             ]
         },
         {
             "Name": "tfdWakes",
             "Type": "TextField",
-            "Text": "",
+            "Text": "", 
             "Bounds": "350, 75, 50, 20",
             "Color": "default",
             "Enabled": true,
@@ -42,7 +42,7 @@
             "Listeners": [
                 {
                     "Type": "KeyListener",
-                    "Name": "NumericKeyListener"
+                    "Name": "md.polarbeargame.listeners.NumericKeyListener"
                 }
             ]
         },
@@ -57,7 +57,7 @@
             "Listeners": [
                 {
                     "Type": "KeyListener",
-                    "Name": "NumericKeyListener"
+                    "Name": "md.polarbeargame.listeners.NumericKeyListener"
                 }
             ]
         },
@@ -72,7 +72,7 @@
             "Listeners": [
                 {
                     "Type": "KeyListener",
-                    "Name": "NumericKeyListener"
+                    "Name": "md.polarbeargame.listeners.NumericKeyListener"
                 }
             ]
         },
@@ -91,7 +91,7 @@
             "Listeners": [
                 {
                     "Type": "KeyListener",
-                    "Name": "NumericKeyListener"
+                    "Name": "md.polarbeargame.listeners.NumericKeyListener"
                 }
             ]
         },
@@ -110,7 +110,7 @@
             "Listeners": [
                 {
                     "Type": "KeyListener",
-                    "Name": "NumericKeyListener"
+                    "Name": "md.polarbeargame.listeners.NumericKeyListener"
                 }
             ]
         },
@@ -129,7 +129,7 @@
             "Listeners": [
                 {
                     "Type": "KeyListener",
-                    "Name": "NumericKeyListener"
+                    "Name": "md.polarbeargame.listeners.NumericKeyListener"
                 }
             ]
         },
@@ -141,7 +141,7 @@
             "Listeners": [
                 {
                     "Type": "ActionListener",
-                    "Name": "ThrowDiceListener"
+                    "Name": "md.polarbeargame.listeners.ThrowDiceListener"
                 }
             ]
         },
@@ -154,7 +154,7 @@
             "Listeners": [
                 {
                     "Type": "ActionListener",
-                    "Name": "AnswerCheckListener"
+                    "Name": "md.polarbeargame.listeners.AnswerCheckListener"
                 }
             ]
         },
@@ -167,7 +167,7 @@
             "Listeners": [
                 {
                     "Type": "ActionListener",
-                    "Name": "NewGameListener"
+                    "Name": "md.polarbeargame.listeners.NewGameListener"
                 }
             ]
         },
@@ -180,7 +180,7 @@
             "Listeners": [
                 {
                     "Type": "ActionListener",
-                    "Name": "ShowAnswerListener"
+                    "Name": "md.polarbeargame.listeners.ShowAnswerListener"
                 }
             ]
         },
@@ -198,7 +198,7 @@
             "Listeners": [
                 {
                     "Type": "KeyListener",
-                    "Name": "NumericKeyListener"
+                    "Name": "md.polarbeargame.listeners.NumericKeyListener"
                 }
             ]
         },

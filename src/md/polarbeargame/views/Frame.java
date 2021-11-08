@@ -8,9 +8,9 @@ public class Frame extends JsonFrame {
 
     public Frame(AppSettings appSettings) {
         super(Frame.class);
-        
+
         String title;
-        if(appSettings != null) {
+        if (appSettings != null) {
             title = appSettings.getAppName();
         } else {
             title = getJsonData().get("Title").getAsString();
@@ -18,5 +18,4 @@ public class Frame extends JsonFrame {
 
         setTitle(title);
     }
-
 }
