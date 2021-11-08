@@ -16,10 +16,6 @@ public class App {
                 .get(Path.of(MdFiles.getRootFolder().toString(), "src", "md", "polarbeargame", "appsettings.json"));
         AppSettings settings = Mapper.map(settingsJson, AppSettings.class);
 
-        if (settings != null) {
-            new Frame(settings);
-        } else {
-            new Frame();
-        }
+        new Frame(settings);
     }
 }
